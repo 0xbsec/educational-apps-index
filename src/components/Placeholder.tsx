@@ -16,7 +16,7 @@ const Spinner = styled.div`
   font-size: 10px;
 `;
 
-const rotate = keyframes`
+const scale = keyframes`
   0%, 40%, 100% { transform: scaleY(0.4); }
   20% { transform: scaleY(1.0); }
 `;
@@ -27,7 +27,7 @@ const Rect = styled.div`
   width: 6px;
   display: inline-block;
 
-  animation: ${rotate} 1.2s infinite ease-in-out;
+  animation: ${scale} 1.2s infinite ease-in-out;
 `;
 
 const Rect1 = styled(Rect)``;
