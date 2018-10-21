@@ -1,24 +1,31 @@
 import React from 'react'
-import { Router, Link } from 'react-static'
 import { hot } from 'react-hot-loader'
-//
-import Routes from 'react-static-routes'
+import Category from 'components/Category'
+import applicationsData from 'data/applications'
+import styled from 'styled-components';
+import NavBar from 'components/NavBar'
+import Footer from 'components/Footer'
 
-import './app.css'
+const constructCategories = (data) => (
+  data.map((category, index) => (
+    <Category
+      key={index}
+      name={category.name}
+      applications={category.applications}
+    />
+  ))
+)
+
+const Content = styled.div`
+  background-color: #F0F8FF;
+`;
 
 const App = () => (
-  <Router>
-    <div>
-      <nav>
-        <Link exact to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/blog">Blog</Link>
-      </nav>
-      <div className="content">
-        <Routes />
-      </div>
-    </div>
-  </Router>
+  <Content>
+    <NavBar />
+    {constructCategories(applicationsData)}
+    <Footer />
+  </Content>
 )
 
 export default hot(module)(App)
