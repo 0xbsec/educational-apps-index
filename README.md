@@ -2,6 +2,8 @@
 
 Index for educational applications
 
+![الموقع على أجهزة الحاسب](./screenshots/desktop.png?raw=true "الموقع على أجهزة الحاسب")
+
 # Development
 
 ```bash
