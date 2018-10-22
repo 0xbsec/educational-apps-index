@@ -99,5 +99,24 @@
         "ios_link": "http://goo.gl/q4YBDA"
       }
     ]
+  },
+  {
+    "name": "تطبيقات عامة",
+    "applications": [
+      {
+        "title": "أنا مسلم‎",
+        "description": "تطبيق أنا مسلم تطبيق شامل لكل ما يحتاجه المسلم مقسم ومبسط لسهولة التعامل",
+        "avatar": "https://lh3.googleusercontent.com/LxF41Gk5cqeDaAw_4i_9GQHJNSZLnIpFu7hWXFzvc4_LiV_2xCN7bHlLWqzd6u_ZmIY=s360-rw",
+        "android_link": "https://play.google.com/store/apps/details?id=com.mfk4apps.muslimhouse",
+        "ios_link": ""
+      },
+      {
+        "title": "آية",
+        "description": "آية هو تطبيق متكامل للقرآن الكريم، يجمع بين جمال التصميم وسهولة الاستخدام",
+        "avatar": "https://lh3.googleusercontent.com/G6jxRB-cKpa0Bdy9S1KRByrKSlmRPlMyrrrGAOcFewgngl09JxbYC6M-Q4SxdOydsbV4=s360-rw",
+        "android_link": "https://play.google.com/store/apps/details?id=com.ayah&hl=ar",
+        "ios_link": "https://itunes.apple.com/us/app/ayah-%D8%A2%D9%8A%D8%A9/id706037876?mt=8"
+      }
+    ]
   }
 ]
